@@ -1,0 +1,16 @@
+.lista-vagas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.lista-vagas .card{
+    margin: 5px 10px;
+    min-height: 500px;
+    background-color: #01001b;
+    font-family: inherit;
+    color: white;
+}
+
