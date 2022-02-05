@@ -1,5 +1,63 @@
 .cores {
-    color: white;
-    justify-items: center;
-    display: inline;
+    color: rgb(230, 235, 228);
+    height: 200px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
 }
+
+.box {
+    height: 200px;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px;
+    height: 500px;
+    background: rgb(0, 0, 0);
+    
+    background: cover; 
+    justify-content: center;
+    opacity: 0.5;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.botao  {
+    display: flex;
+}
+
+.fonte1 {
+    font-size: 30px;
+}
+
+.fonte2 {
+    font-size: 30px;
+}
+
+.fonte3 {
+    font-size: 30px;
+}
+
+.fonte4 {
+    font-size: 30px;
+}
+
+.fonte5 {
+    font-size: 30px;
+}
+

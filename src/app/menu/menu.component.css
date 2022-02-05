@@ -1,17 +1,46 @@
 
-.nav-link {
+.nav-link{
     color: rgb(255, 255, 255);
+    transition: 0.3s;
+
     
 }
 
 .navbar-brand{
     color: white;
+    transition: 0.3s;
 }
 
 #navbarSupportedContent a{
     color: white;
+    transition: 0.3s;
 }
 
 .d-flex {
     color: white;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: rgb(46, 177, 46);
+}
+
+.navbar-brand:hover{
+    color: rgb(46, 177, 46);
+}
+
+#navbarSupportedContent a:hover{
+    color: rgb(46, 177, 46);
+}
+
+.d-flex:hover{
+    color: rgb(46, 177, 46);
+}
+
+.dropdown-menu {
+    background-color: #000330
+}
+
+.dropdown-item:hover{
+    background-color: rgb(0, 0, 0);
 }
